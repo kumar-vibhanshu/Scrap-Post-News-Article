@@ -24,19 +24,19 @@ def downloader(image_url):
 
 #using newspaper library
 from newspaper import Article
-#for example ,we used http://www.defencenews.in 
-defencenews = newspaper.build('http://target website/',
+#for example ,we used https://www.bhaskar.com/
+latestnews = newspaper.build('http://target website/',
                               memoize_articles=False)
 
-for article in defencenews.articles:
+for article in latestnews.articles:
     print (article.url)
 
-length=(defencenews.size())
+length=(latestnews.size())
 print (length)
 for i in range(0,2):
     print (i)
 
-    first_article = defencenews.articles[i]
+    first_article = latestnews.articles[i]
     first_article.download()
     first_article.parse()
     #html = first_article.html
