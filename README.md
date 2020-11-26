@@ -1,6 +1,6 @@
 # Scrap-Post-News-Article
 
-This Project is about scrapping news article from a news website (like TOI ) and posting them in WordPress based Website through xmlrpc.
+This Project is about scrapping news article from a news website (like Dainik Bhaskar ) and posting them in WordPress based Website through xmlrpc.
 
 Libraries used :
 1.newspaper 
